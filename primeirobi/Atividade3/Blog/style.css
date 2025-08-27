@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc; /* Cor de fundo suave e clean */
+    padding: 20px;
+    line-height: 1.6;
+    color: #4b5563; /* Texto em cinza grafite */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #1e3a8a; /* Azul petróleo */
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2563eb; /* Azul médio */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #1d4ed8; /* Azul mais escuro no hover */
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: #ffffff; /* Card branco */
+    padding: 25px;
+    border: 1px solid #e5e7eb; /* Borda cinza clara */
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Sombra mais suave e moderna */
+}
+
+article h2 {
+    color: #1e3a8a; /* Azul petróleo */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #4b5563; /* Cinza grafite */
+    margin-bottom: 15px;
+}
+
+figure {
+    margin-top: 20px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #6b7280; /* Cinza médio para legendas */
+    text-align: center;
+    margin-top: 5px;
+}
+
+aside {
+    max-width: 250px;
+}
+
+aside h3 {
+    margin-bottom: 10px;
+    color: #1e3a8a; /* Azul petróleo */
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    margin-bottom: 8px;
+}
+
+aside a {
+    text-decoration: none;
+    color: #2563eb; /* Azul médio */
+    transition: 0.3s;
+}
+
+aside a:hover {
+    color: #1d4ed8; /* Azul mais escuro no hover */
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #9ca3af; /* Cinza claro e clean */
+}
